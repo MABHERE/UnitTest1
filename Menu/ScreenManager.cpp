@@ -17,9 +17,9 @@ ScreenManager::~ScreenManager()
 
 void ScreenManager::AddScreen(GameScreen *screen)
 {
-	newScreen = screen;
 	currentScreen->UnloadContent();
-	currentScreen = newScreen;
+	delete currentScreen;
+	currentScreen = screen;
 	currentScreen->LoadContent();
 }
 

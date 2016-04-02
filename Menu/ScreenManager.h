@@ -22,7 +22,7 @@ class ScreenManager
 		void operator =(ScreenManager const&);
 
 		string text;
-		GameScreen *currentScreen, *newScreen;
+		GameScreen *currentScreen;
 	public:
 		~ScreenManager();
 		static ScreenManager &GetInstance();
