@@ -1,6 +1,7 @@
 #pragma once
 
 #include"ScreenManager.h"
+#include"InputManager.h"
 #include <allegro5\allegro_font.h>
 #include <allegro5\allegro_ttf.h>
 
@@ -8,6 +9,7 @@ class SplashScreen : public GameScreen
 {
 	private:
 		ALLEGRO_FONT *font;
+		InputManager input;
 	public:
 		SplashScreen();
 		~SplashScreen();

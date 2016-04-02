@@ -1,7 +1,5 @@
 #include "ScreenManager.h"
 
-GameScreen *currentScreen, *newScreen;
-
 ScreenManager &ScreenManager::GetInstance()
 {
 	static ScreenManager instance;

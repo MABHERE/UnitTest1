@@ -1,7 +1,5 @@
 #include "TitleScreen.h"
 
-InputManager titleInput;
-
 TitleScreen::TitleScreen()
 {
 }
@@ -25,7 +23,7 @@ void TitleScreen::UnloadContent()
 
 void TitleScreen::Update(ALLEGRO_EVENT ev)
 {
-	if (titleInput.IsKeyPressed(ev, ALLEGRO_KEY_ENTER))
+	if (input.IsKeyPressed(ev, ALLEGRO_KEY_ENTER))
 		ScreenManager::GetInstance().AddScreen(new SplashScreen);
 }
 

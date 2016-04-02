@@ -9,6 +9,7 @@ class TitleScreen : public GameScreen
 {
 	private:
 		ALLEGRO_FONT *font;
+		InputManager input;
 	public:
 		TitleScreen();
 		~TitleScreen();

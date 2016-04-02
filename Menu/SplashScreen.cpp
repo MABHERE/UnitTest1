@@ -1,8 +1,5 @@
 #include "SplashScreen.h"
 
-
-InputManager splashInput;
-
 SplashScreen::SplashScreen()
 {
 }
@@ -26,7 +23,7 @@ void SplashScreen::UnloadContent()
 
 void SplashScreen::Update(ALLEGRO_EVENT ev)
 {
-	if (splashInput.IsKeyPressed(ev, ALLEGRO_KEY_Z))
+	if (input.IsKeyPressed(ev, ALLEGRO_KEY_Z))
 		ScreenManager::GetInstance().AddScreen(new TitleScreen);
 }
 
