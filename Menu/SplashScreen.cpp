@@ -16,7 +16,7 @@ void SplashScreen::LoadContent()
 {
 	al_init_font_addon();
 	al_init_ttf_addon();
-	font = al_load_font("Trocadero.ttf", 30, NULL);
+	font = al_load_font("Xcelsion.ttf", 30, NULL);
 }
 
 void SplashScreen::UnloadContent()
