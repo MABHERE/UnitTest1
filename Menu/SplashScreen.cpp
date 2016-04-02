@@ -4,7 +4,6 @@ SplashScreen::SplashScreen()
 {
 }
 
-
 SplashScreen::~SplashScreen()
 {
 }

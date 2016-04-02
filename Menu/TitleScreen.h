@@ -18,6 +18,5 @@ class TitleScreen : public GameScreen
 		void UnloadContent();
 		void Update(ALLEGRO_EVENT ev);
 		void Draw(ALLEGRO_DISPLAY *display);
-
 };
 

@@ -4,7 +4,6 @@ TitleScreen::TitleScreen()
 {
 }
 
-
 TitleScreen::~TitleScreen()
 {
 }

@@ -10,7 +10,6 @@ ScreenManager::ScreenManager()
 {
 }
 
-
 ScreenManager::~ScreenManager()
 {
 }
