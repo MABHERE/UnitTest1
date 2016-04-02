@@ -1,5 +1,5 @@
 #include "SplashScreen.h"
-
+//SpashScreen cpp
 SplashScreen::SplashScreen()
 {
 }

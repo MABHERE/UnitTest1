@@ -1,5 +1,5 @@
 #pragma once
-
+//GameScreen header
 #include<allegro5\allegro.h>
 class GameScreen
 {

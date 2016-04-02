@@ -1,5 +1,5 @@
 #include "ScreenManager.h"
-
+//ScreenMangaer cpp
 ScreenManager &ScreenManager::GetInstance()
 {
 	static ScreenManager instance;
