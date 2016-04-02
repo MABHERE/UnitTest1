@@ -11,7 +11,6 @@ using namespace std;
 //Allegro Inits
 #include<allegro5\allegro.h>
 
-
 #define ScreenWidth 800
 #define ScreenHeight 600
 

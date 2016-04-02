@@ -13,6 +13,7 @@ class InputManager
 	public:
 		InputManager();
 		~InputManager();
+
 		bool IsKeyPressed(ALLEGRO_EVENT ev, int key);
 		bool IsKeyPressed(ALLEGRO_EVENT ev, vector<int> keys);
 
