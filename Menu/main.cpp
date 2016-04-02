@@ -49,14 +49,14 @@ int main()
 		al_wait_for_event(event_queue, &ev);
 		al_get_keyboard_state(&keyState);
 
-		if (input.IsKeyPressed(ev, ALLEGRO_KEY_ESCAPE));
-		done = true;
+		if (input.IsKeyPressed(ev, ALLEGRO_KEY_ESCAPE))
+			done = true;
 
 		ScreenManager::GetInstance().Update(ev);
 		ScreenManager::GetInstance().Draw(display);
 
 		al_flip_display();
-		al_clear_to_color(al_map_rgb(0,255,0));
+		al_clear_to_color(al_map_rgb(0,0,0));
 	}
 
 	al_destroy_display(display);
