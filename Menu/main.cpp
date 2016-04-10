@@ -24,8 +24,8 @@ int main()
 	al_install_keyboard();
 	al_install_mouse();
 
-	/*al_init_image_addon();
-	al_init_acodec_addon();*/
+	al_init_image_addon();
+	//al_init_acodec_addon();
 
 
 	ALLEGRO_TIMER *timer = al_create_timer(1.0f / FPS);
@@ -58,6 +58,8 @@ int main()
 		al_flip_display();
 		al_clear_to_color(al_map_rgb(0,0,0));
 	}
+	 
+	ScreenManager::GetInstance().UnloadContent();
 
 	al_destroy_display(display);
 	al_destroy_timer(timer);

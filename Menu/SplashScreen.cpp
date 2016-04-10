@@ -12,7 +12,7 @@ void SplashScreen::LoadContent()
 {
 	al_init_font_addon();
 	al_init_ttf_addon();
-	font = al_load_font("Xcelsion.ttf", 30, NULL);
+	font = al_load_font("xcelv3i.ttf", 30, NULL);
 }
 
 void SplashScreen::UnloadContent()
@@ -22,7 +22,7 @@ void SplashScreen::UnloadContent()
 
 void SplashScreen::Update(ALLEGRO_EVENT ev)
 {
-	if (input.IsKeyPressed(ev, ALLEGRO_KEY_Z))
+	if (input.IsKeyPressed(ev, ALLEGRO_KEY_ENTER))
 		ScreenManager::GetInstance().AddScreen(new TitleScreen);
 }
 
